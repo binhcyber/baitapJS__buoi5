@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiendien__content {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #ffc6ff;
+  padding: 30px 0;
+  text-align: center;
+}
+.nhaptiendien {
+  width: 250px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 20px;
+}
+h3 {
+  color: #f72585;
+  margin: 10px 0;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #219ebc;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 20px;
+}
+.thongbao {
+  font-size: 1.3rem;
+  line-height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 20px;
+}

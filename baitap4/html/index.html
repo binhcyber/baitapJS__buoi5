@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hoadon">
+      <div class="hoadon__content">
+        <h1>HÓA ĐƠN KHÁCH HÀNG</h1>
+        <label class="label" for="dn">Doanh Nghiệp</label>
+        <input value="dn" type="radio" name="hoaDonCap" id="dn" />
+        <label class="label" for="cn">Nhà dân</label>
+        <input value="cn" type="radio" name="hoaDonCap" id="cn" />
+        <br />
+        <br />
+        <label class="labell p-labell" for="">Số kết nối</label>
+        <input
+          class="hoadoncapquang"
+          type="text"
+          name="soKetNoi1"
+          id="soKetNoi"
+          disabled="disabled"
+        />
+        <br />
+        <br />
+        <label class="labell" for="">Số kênh cao cấp</label>
+        <input class="hoadoncapquang" type="text" name="" id="soKenh" />
+        <br />
+        <br />
+        <button class="btn" onclick="tinhHoaDon()">TÍNH TIỀN</button>
+        <br />
+        <p class="thongbao" id="xuatThongBao"></p>
+      </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>

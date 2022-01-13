@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="totNghiep">
+      <div class="totnghiep__content">
+        <h1>KẾT QUẢ MÔN THI TỐT NGHIỆP</h1>
+        <h2>(Lưu ý: Điểm chuẩn năm nay là 15 điểm)</h2>
+        <br />
+        <h3>Khu vực ưu tiên</h3>
+        <label class="labell" for="">Khu vực A</label>
+        <input type="radio" value="khuVucA" name="khuVuc" id="khuVucA" />
+        <br />
+        <label class="labell" for="">Khu vực B</label>
+        <input type="radio" value="khuVucB" name="khuVuc" id="khuVucB" />
+        <br />
+        <label class="labell" for="">Khu vực C</label>
+        <input type="radio" value="khuVucC" name="khuVuc" id="khuVucC" />
+        <br />
+        <label class="labell" for="">Không thuộc khu vực ưu tiên</label>
+        <input
+          type="radio"
+          value="khongThuocKhuVucUuTien"
+          name="khuVuc"
+          id="khongThuocKhuVucUuTien"
+        />
+        <br />
+        <br />
+        <h3>Đối tượng ưu tiên</h3>
+
+        <label class="labell" for="">Đối tượng ưu tiên 1</label>
+        <input type="radio" value="doiTuong1" name="doiTuong" id="doiTuong1" />
+        <br />
+        <label class="labell" for="">Đối tượng ưu tiên 2</label>
+        <input type="radio" value="doiTuong2" name="doiTuong" id="doiTuong2" />
+        <br />
+        <label class="labell" for="">Đối tượng ưu tiên 3</label>
+        <input type="radio" value="doiTuong3" name="doiTuong" id="doiTuong3" />
+        <br />
+        <label class="labell" for="">Không thuộc đối tượng ưu tiên</label>
+        <input
+          type="radio"
+          value="khongThuocDoiTuongUuTien"
+          name="doiTuong"
+          id="khongThuocDoiTuongUuTien"
+        />
+        <br />
+        <br />
+        <h3>Môn Thi</h3>
+        <br />
+        <label class="label" for="">Điểm môn thứ 1</label>
+        <input
+          class="diemthi"
+          placeholder="Điểm môn thứ 1"
+          type="text"
+          name=""
+          id="diemMonThu1"
+        />
+        <br />
+        <br />
+        <label class="label" for="">Điểm môn thứ 2</label>
+        <input
+          class="diemthi"
+          placeholder="Điểm môn thứ 2"
+          type="text"
+          name=""
+          id="diemMonThu2"
+        />
+        <br />
+        <br />
+        <label class="label" for="">Điểm môn thứ 3</label>
+        <input
+          class="diemthi"
+          placeholder="Điểm môn thứ 3"
+          type="text"
+          name=""
+          id="diemMonThu3"
+        />
+        <br />
+        <br />
+        <button class="btn" onclick="ketQua()">KẾT QUẢ</button>
+        <br />
+        <br />
+        <p class="thongbao" id="xuatThongBao"></p>
+      </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>
